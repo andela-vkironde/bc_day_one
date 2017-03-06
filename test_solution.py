@@ -1,7 +1,5 @@
 import unittest
 from prime_no_solution import gen_prime_number
-from testtools import ExpectedException
-# from import org.junit.rules.ExpectedException
 
 class Solution(unittest.TestCase):
 	def test_n_is_seven(self):
