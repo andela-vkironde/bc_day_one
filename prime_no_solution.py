@@ -1,4 +1,8 @@
 def gen_prime_number(n):
+
+	"""Function to generate prime numbers within a certain range
+	 and append them to a list"""
+
 	list_of_prime_numbers = []
 	if n is not None:
 		if n > 0:
@@ -13,5 +17,3 @@ def gen_prime_number(n):
 	else:
 		return("Error: Invalid input")
 
-
-gen_prime_number(10)
