@@ -25,7 +25,7 @@ class Solution(unittest.TestCase):
         except AssertionError:
             raise(AssertionError("Wrong type"))
             # print ("Wrong type!")
-            
+
     def test_string(self):
         value = gen_prime_number(8)
         self.assertTrue("Helloworld" != value)
